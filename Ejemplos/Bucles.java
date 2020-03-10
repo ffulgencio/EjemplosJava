@@ -3,13 +3,13 @@ package com.company;
 import java.awt.*;
 import java.util.Scanner;
 
-public class Main {
+public class Bucles {
 
     public static void main(String[] args) {
 	// while
         Scanner teclado = new Scanner(System.in);
 
-/*
+
         System.out.print("Escriba el limite: ");
         int limite = teclado.nextInt();
 
@@ -27,6 +27,15 @@ public class Main {
 
         }
 
+        
+
+   
+        /*
+        Hacer un programa que lea del teclado un numero
+        mientras sea distinto de cero. Si ingresa cero
+        terminara y mostrara la suma total de los numeros
+        dados.
+         */
         int numero = 1;
         int result = 0;
         while(numero != 0){
@@ -36,17 +45,9 @@ public class Main {
         }
         System.out.println("La suma es: " + result);
 
-   */
-        /*
-        Hacer un programa que lea del teclado un numero
-        mientras sea distinto de cero. Si ingresa cero
-        terminara y mostrara la suma total de los numeros
-        dados.
-         */
-
         /*
         hacer un programa que muestre la tabla de multiplicar
-        de un numero
+        de un numero */
 
         System.out.print(" Ingrese un numero ");
          //int numero = teclado.nextInt();
@@ -57,7 +58,7 @@ public class Main {
             }
             System.out.println();
         }
-            */
+    
 
         int numero;
         System.out.print("Escriba un numero: ");
